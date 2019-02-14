@@ -55,7 +55,7 @@
 
 <!-- Begin Body -->
 <div class="container">
-    <div >
+    <div>
         <!-- enable links to subpages by removing the "no-" prefix -->
         <div class="col-md-3">
             <div class="well">
@@ -64,7 +64,7 @@
                     <li><a data-toggle="pill" href="#program"><b>Program</b></a></li>
                     <li><a data-toggle="pill" href="#call"><b>Call for Papers</b></a></li>
                     <li><a data-toggle="pill" href="#orgcom"><b>Organizing Committee</b></a></li>
-                    <li><a data-toggle="pill" href="#keynotes"><b>Keynotes</b></a></li>
+                    <!-- <li><a data-toggle="pill" href="#keynotes"><b>Keynotes</b></a></li> -->
                     <li><a data-toggle="pill" href="#progcom"><b>Program Committee</b></a></li>
                     <!-- <li><a data-toggle="pill" href="#accepted"><b>Accepted Papers</b></a></li> -->
 
@@ -94,8 +94,31 @@
                 </div>
 
                 <div id="program" class="tab-pane fade">
-                    <!--(<a href="ICECCS2017-Program.pdf">PDF</a>)-->
                     <h3>Program </h3>
+                    <h3>Keynote Speaker</h3>
+                     <section id="keynotes">
+                
+                    <h4>Title: A journey into Android App Analysis</h4>
+                    <div>
+
+                    <div class="col-lg-3 col-md-6">
+                      <img class="img-responsive" src="img/keynote.png">
+                    </div>
+                    <h4><a href="https://sites.google.com/site/jacqueskleinwebpage/"><b>Jacques Klein</b></a> (University of Luxembourg)</h4>
+
+                    <h4><b>Abstract</b></h4>
+                    <p>These last 10 years, mobile devices, such as smart phones, have spread at an exponential rate. The most used system running on these devices, accounting for almost 80% of market share for smart phones world-wide, is the Android software stack. The success of Android and the millions of users downloading every days millions of Android apps make Android a prime target for malware writers.
+                    In this talk, I explore 8 years of work aiming at making Android Apps safer and more reliable. First, I present the premise of our research work in developing Android app analysers in a time where Dalvik bytecode was still an obstacle. Second, I share our expertise in building a large Android app dataset such as AndroZoo. On top of this dataset, I present several research works covering (1) Android Malware detection by leveraging Machine Learning techniques, (2) Malware Labelling for creating better ground truth, and (3) Android App mining to understand usage trends and app dev issues.
+                     </p>
+
+                    <h4><b>Bio</b></h4>
+                    Prof. Jacques Klein is a Senior Research Scientist (faculty position) with SnT, University of Luxembourg. He leads a group of about 10 researchers focusing on Mobile Security and Software Engineering. Prof. Klein has standing experience and expertise on (1) successfully running industrial projects with impressive experience in data analytics, software engineering, information retrieval, etc., (2) Android security including both static analysis techniques for tracking privacy leaks and machine learning for identifying malware. Dr. Klein has been successful in publishing relevant results in top journals/conferences including TSE, TIFS, Empirical Software Engineering journal, Usenix Security, PLDI, ICSE, POPL, ISSTA, etc.
+
+                    <br>
+                    <br>
+
+                    </div>
+                     </section>
 
                     <table border="1">
                         <tbody>
@@ -129,40 +152,13 @@
 
                         </tr>
 
-                        <!-- <tr>
-                            <td class="leftitem-a"><b>11:00 -- 12:30</b></td>
-                            <td class="rightitem"><b>3 paper presentations in the morning</b></td>
-                        </tr>
 
-                        <tr>
-                            <td class="leftitem-a"><b>12:30 -- 13:30</b></td>
-                            <td class="rightitem"><b>Lunch Break</b></td>
-                        </tr>
-                        <tr>
-                            <td class="leftitem-a"><b>13:30 -- 15:30</b></td>
-                            <td class="rightitem"><b>4 paper presentations (I) in the afternoon</b></td>
-                        </tr>
-                        <tr>
-                            <td class="leftitem-a"><b>15:30 -- 16:00</b></td>
-                            <td class="rightitem"><b>Coffee Break</b></td>
-                        </tr>
-                        <tr>
-                            <td class="leftitem-a"><b>16:00 -- 17:30</b></td>
-                            <td class="rightitem"><b>3 paper presentations (II) in the afternoon</b></td>
-                        </tr>
-                        <tr>
-                            <td class="leftitem-a"><b>17:30 -- 18:00</b></td>
-                            <td class="rightitem"><b>Panel Discussion</b></td>
-                        </tr>
-                        <tr>
-                            <td class="leftitem-a"><b>18:00 -- 18:15</b></td>
-                            <td class="rightitem"><b>Closing</b></td>
-                        </tr> -->
                         </tbody>
                     </table>
                     <br>
                     <br>
                 </div>
+
                 <!--- End Program -->
 
 
@@ -312,40 +308,10 @@
                         <li>Yang Zhang (CISPA Helmholtz Center i.G., Germany)</li>
                         <br>
                         <br>
-
                     </ul>
-
                 </div>
-             <!--- Begin keynotes -->
-        <div id="keynotes" class="tab-pane fade">
-          <h3>Keynote Speaker</h3>
-            <section id="keynotes">
-                
-            <h4>Title: A journey into Android App Analysis</h4>
-            <div>
-                
-            <div class="col-lg-3 col-md-6">
-              <img class="img-responsive" src="img/keynote.png"> 
-            </div>    
-                
-<!--            <img src="images/keynote1.png">     -->
-            <h4><a href="https://sites.google.com/site/jacqueskleinwebpage/"><b>Jacques Klein</b></a> (University of Luxembourg)</h4>
-                
-            <h4><b>Abstract</b></h4>
-            <p>These last 10 years, mobile devices, such as smart phones, have spread at an exponential rate. The most used system running on these devices, accounting for almost 80% of market share for smart phones world-wide, is the Android software stack. The success of Android and the millions of users downloading every days millions of Android apps make Android a prime target for malware writers. 
-            In this talk, I explore 8 years of work aiming at making Android Apps safer and more reliable. First, I present the premise of our research work in developing Android app analysers in a time where Dalvik bytecode was still an obstacle. Second, I share our expertise in building a large Android app dataset such as AndroZoo. On top of this dataset, I present several research works covering (1) Android Malware detection by leveraging Machine Learning techniques, (2) Malware Labelling for creating better ground truth, and (3) Android App mining to understand usage trends and app dev issues.  
-             </p>    
-                
-            <h4><b>Bio</b></h4>         
-            Prof. Jacques Klein is a Senior Research Scientist (faculty position) with SnT, University of Luxembourg. He leads a group of about 10 researchers focusing on Mobile Security and Software Engineering. Prof. Klein has standing experience and expertise on (1) successfully running industrial projects with impressive experience in data analytics, software engineering, information retrieval, etc., (2) Android security including both static analysis techniques for tracking privacy leaks and machine learning for identifying malware. Dr. Klein has been successful in publishing relevant results in top journals/conferences including TSE, TIFS, Empirical Software Engineering journal, Usenix Security, PLDI, ICSE, POPL, ISSTA, etc.
-                
-            <br>
-            <br>    
-                
-            </section><!--/keynotes-->   
             </div>
         </div>
-
     </div>
 </div>
 
